@@ -1,0 +1,9 @@
+name: Hyperplex
+url: http://example.org
+description: It leads Nowhere
+
+permalink: /:title/
+paginate: 10
+pygments: highlight
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Hyperplex</title>
+		<description>It leads Nowhere</description>
+		<link>http://example.org</link>
+		<atom:link href="http://example.org/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hello World! (Again?! Really?!)</title>
+				<description>&lt;p&gt;Again? Really?!&lt;/p&gt;
+
+&lt;p&gt;This is my third times for building a blog.&lt;/p&gt;
+
+&lt;p&gt;Is it that hard?&lt;/p&gt;
+</description>
+				<pubDate>Mon, 15 Jun 2015 00:00:00 +0700</pubDate>
+				<link>http://example.org/hello-world.markdown/</link>
+				<guid isPermaLink="true">http://example.org/hello-world.markdown/</guid>
+			</item>
+		
+	</channel>
+</rss>
