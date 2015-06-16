@@ -7,6 +7,21 @@
 		<atom:link href="http://example.org/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Editorial 1.2 Brings Powerful New Text Editing Features, More iOS Automation</title>
+				<description>&lt;p&gt;Federico Viticci’s on Macstories:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Features like browser tabs, folding, custom templates, preview themes, and better search make Editorial the undisputed king of Markdown text editing on iOS – an area where no other app can compete at this point. I would like to see a faster release cycle from Zorn – hopefully adopting iOS 9 multitasking and search won’t take long – but that doesn’t change the fact that Editorial continues to be the most powerful app for writing and automating Markdown on iOS – for &lt;a href=&quot;http://www.macstories.net/stories/editorial-for-ipad-review/&quot;&gt;all the reasons I covered in the past&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you write a lot and need a powerful text editor on iOS then read Viticci’s review of Editorial. An instant buy.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 16 Jun 2015 00:00:00 +0700</pubDate>
+				<link>http://example.org/editorial-updates/</link>
+				<guid isPermaLink="true">http://example.org/editorial-updates/</guid>
+			</item>
+		
+			<item>
 				<title>Hello World! (Again?! Really?!)</title>
 				<description>&lt;p&gt;Again? Really?!&lt;/p&gt;
 
