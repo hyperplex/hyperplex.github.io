@@ -2,8 +2,8 @@ name: Hyperplex
 url: http://hyperplex.github.io
 description: It leads Nowhere
 
-permalink: /:title/
+permalink: /:categories/:year/:month/:day/:title/
+category_dir: /categories/
 paginate: 10
-pygments: highlight
-
+highlighter: pygments
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

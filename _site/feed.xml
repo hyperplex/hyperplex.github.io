@@ -3,8 +3,8 @@
 	<channel>
 		<title>Hyperplex</title>
 		<description>It leads Nowhere</description>
-		<link>http://example.org</link>
-		<atom:link href="http://example.org/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://hyperplex.github.io</link>
+		<atom:link href="http://hyperplex.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Editorial 1.2 Brings Powerful New Text Editing Features, More iOS Automation</title>
@@ -17,8 +17,8 @@
 &lt;p&gt;If you write a lot and need a powerful text editor on iOS then read Viticci’s review of Editorial. An instant buy.&lt;/p&gt;
 </description>
 				<pubDate>Tue, 16 Jun 2015 00:00:00 +0700</pubDate>
-				<link>http://example.org/editorial-updates/</link>
-				<guid isPermaLink="true">http://example.org/editorial-updates/</guid>
+				<link>http://hyperplex.github.io/linked/2015/06/16/editorial-updates/</link>
+				<guid isPermaLink="true">http://hyperplex.github.io/linked/2015/06/16/editorial-updates/</guid>
 			</item>
 		
 			<item>
@@ -30,8 +30,8 @@
 &lt;p&gt;Is it that hard?&lt;/p&gt;
 </description>
 				<pubDate>Mon, 15 Jun 2015 00:00:00 +0700</pubDate>
-				<link>http://example.org/hello-world.markdown/</link>
-				<guid isPermaLink="true">http://example.org/hello-world.markdown/</guid>
+				<link>http://hyperplex.github.io/post/2015/06/15/hello-world.markdown/</link>
+				<guid isPermaLink="true">http://hyperplex.github.io/post/2015/06/15/hello-world.markdown/</guid>
 			</item>
 		
 	</channel>
