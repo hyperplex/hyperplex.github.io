@@ -2,7 +2,7 @@
 layout: post
 title: Editorial 1.2 Brings Powerful New Text Editing Features, More iOS Automation
 external-url: http://www.macstories.net/reviews/editorial-1-2-brings-powerful-new-text-editing-features-more-ios-automation/
-category: linked
+category: ['linked']
 ---
 
 Federico Viticci's on Macstories:
