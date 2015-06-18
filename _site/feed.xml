@@ -7,6 +7,15 @@
 		<atom:link href="http://hyperplex.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>In praise of the Utilities folder's unsung heroes</title>
+				<description>&lt;p&gt;If you think the apps insids the Utilities folder on Mac isn’t quite useful, you’d better think again.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 18 Jun 2015 00:00:00 +0700</pubDate>
+				<link>http://hyperplex.github.io/linked/2015/06/18/in-praise-of-utilities-folder/</link>
+				<guid isPermaLink="true">http://hyperplex.github.io/linked/2015/06/18/in-praise-of-utilities-folder/</guid>
+			</item>
+		
+			<item>
 				<title>San Francisco Fonts Are Now Available To Download</title>
 				<description>&lt;p&gt;Apple’s San Francisco fonts are now available to download for developers. They can now start to update their apps to include these fonts. This font is nicer than Helvetica Neue and I say so because I’ve used it on my jailbroken iPhone.&lt;/p&gt;
 
