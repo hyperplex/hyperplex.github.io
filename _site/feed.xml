@@ -26,7 +26,7 @@
   &lt;li&gt;!imgur - &lt;a href=&quot;https://www.imgur.com/&quot;&gt;Imgur&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/bangs_duckduckgo.png&quot; alt=&quot;DuckDuckGo&#39;s bang&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/bangs_duckduckgo.png&quot; alt=&quot;DuckDuckGo&#39;s bang&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you’re not satisfied with the result, you can use !g bang to do Google search, the bonus is it doesn’t track you since you’re using &lt;code&gt;encrypted.google.com&lt;/code&gt; for this search. There are several bang for another types Google Search, such as images, videos, calendar, etc too.&lt;/p&gt;
 

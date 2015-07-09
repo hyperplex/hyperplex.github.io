@@ -22,7 +22,7 @@ If you need to search for Macbook Pro Retina on Amazon, you can use bang !a macb
 * !wa - [WolframAlpha](http://www.wolframalpha.com/)
 * !imgur - [Imgur](https://www.imgur.com/)
 
-![DuckDuckGo's bang](images/bangs_duckduckgo.png)
+![DuckDuckGo's bang](/images/bangs_duckduckgo.png)
 
 If you're not satisfied with the result, you can use !g bang to do Google search, the bonus is it doesn't track you since you're using `encrypted.google.com` for this search. There are several bang for another types Google Search, such as images, videos, calendar, etc too.
 
