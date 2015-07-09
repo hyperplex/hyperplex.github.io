@@ -1,9 +1,0 @@
-ftp_host: '103.23.22.245'
-ftp_dir: 'httpdocs/'
-ftp_passive: false
-
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'glynn'     # default read from stdin
-ftp_password: 'Glynn1517' # default read from stdin
-ftp_secure: false             # default false
