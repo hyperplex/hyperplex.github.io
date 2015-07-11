@@ -6,11 +6,13 @@ tags: [iOS, Mac, search engines]
 published: True
 ---
 
-There are choices when it comes to search engines. Google search maybe the first thing that pop-out in your head. It's okay but let me tell you something. For several weeks, [I've switched my search engines on my iPhone, iPad and Mac to DuckDuckGo](http://hyperplex.co/linked/2015/07/05/duckduckgo-bangs-search/).
+There are choices when it comes to search engines. Google search maybe the first thing that pop-out in your head. It's okay but let me tell you something. For several weeks, I've switched my search engines on my iPhone, iPad and Mac to DuckDuckGo.
 
 DuckDuckGo is listed as search engines in Safari along with Yahoo and Bing besides Google. Even the result page isn't as intuitive as Google when it comes to search for news, DuckDuckGo's result is pretty relevant and reliable.
 
 There's nothing wrong using Google as default search engine. I think we already know that Google track your search and click through your search. It's their business. Google collect your data and monetize it, it's no secret anymore. If you fine with it then you don't need to finish reading this post.
+
+![DuckDuckGo](/images/duckduckgo.png)
 
 DuckDuckGo with its premises “The search engine that doesn’t track you” is just enough reason for me to switch over Google. Overmore you can optimize your search using [prefix bang operators](https://duckduckgo.com/bang).
 
@@ -21,7 +23,6 @@ If you need to search for Macbook Pro Retina on Amazon, you can use bang !a macb
 * !pin - [Pinterest](http://www.pinterest.com/)
 * !wa - [WolframAlpha](http://www.wolframalpha.com/)
 * !imgur - [Imgur](https://www.imgur.com/)
-
 
 If you're not satisfied with the result, you can use !g bang to do Google search, the bonus is it doesn't track you since you're using `encrypted.google.com` for this search. There are several bang for another types Google Search, such as images, videos, calendar, etc too.
 
