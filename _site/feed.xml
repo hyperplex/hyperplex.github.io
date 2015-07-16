@@ -7,6 +7,134 @@
 		<atom:link href="http://hyperplex.co/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Late Thought on iOS 9</title>
+				<description>&lt;p&gt;Apple has announced &lt;a href=&quot;https://www.apple.com/ios/ios9-preview/&quot;&gt;iOS 9&lt;/a&gt;. Focus on the optimizations and stability improvements Apple also add some features who boost functionality on iOS even some of the features they add such as trackpad mode on keyboard and picture in picture could be achieved with being jailbroken. For the last two years, Apple adds a lot of features on iOS which lesser the reason to jailbreak. The number of my installed tweak after being jailbroken is also lesser each new iOS version is released.&lt;/p&gt;
+
+&lt;p&gt;Some people said that Apple borrow ideas from jailbreak scenes and build it into their next iOS release. I still remember how iOS 7 adopt control center which back then on iOS 6 we could achieve that with tweaks named &lt;a href=&quot;http://cydia.saurik.com/package/sbsettings&quot;&gt;SBSettings&lt;/a&gt; and &lt;a href=&quot;http://modmyi.com/cydia/com.jamied360.ncsettings&quot;&gt;NCSettings&lt;/a&gt;. &lt;a href=&quot;http://www.iphonehacks.com/2013/06/ios-7-features-inspired-by-jailbreak-tweaks.html&quot;&gt;Nine features&lt;/a&gt; Apple borrowed from jailbreak scene for iOS 7.&lt;/p&gt;
+
+&lt;p&gt;On iOS 8, once again Apple adopt some of tweaks that extends some functionality on iOS which already present when you were jailbroken such as quick reply, third party keyboard, Notification Center widgets, Touch ID extensions to secure third party apps, and the &lt;a href=&quot;http://www.redmondpie.com/ios-8-features-apple-copied-from-jailbreak-tweaks/&quot;&gt;list go on.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;iOS 9? They still did it.&lt;/p&gt;
+
+&lt;p&gt;I wait for iOS 9 public beta and I installed it yesterday. I installed on my iPad Air and as beta software, there’s bug and crash. Just a kindly reminder, don’t install it on your primary devices to avoid data loss. Apple give iPad a lot of attention on iOS 9 and here’s my thought about it:&lt;/p&gt;
+
+&lt;h2 id=&quot;siri--search&quot;&gt;Siri &amp;amp; Search&lt;/h2&gt;
+
+&lt;h3 id=&quot;siri&quot;&gt;Siri&lt;/h3&gt;
+&lt;p&gt;Siri gets a new look in iOS 9, matched with Siri on Apple Watch interface. Proactive Siri, yes, the virtual assistant will try to predict what will you do next, seems scary? Don’t worry, since Apple need to gather your datas to give personalize experience, you data never be uploaded to the cloud instead it stay in your device. It’s yours. It’s also good from user privacy and security standpoint.&lt;/p&gt;
+
+&lt;h3 id=&quot;search&quot;&gt;Search&lt;/h3&gt;
+&lt;p&gt;Spotlight gets supercharged. You can now search using natural language just like talking to human. With deep and back links, search result will not always web page as the previous iOS version.&lt;/p&gt;
+
+&lt;p&gt;On iOS 9 when you search for a restaurant and there’s a result from Zomato, instead of opening Zomato’s web you’ll brought to search result page within Zomato app if installed. After you finish with what you’re looking for, you can tap the label “Back to Search” on the top left side to back to the Spotlight search.&lt;/p&gt;
+
+&lt;p&gt;Sadly, Apple will only allow official apps to use deep and back link. It means if you’ll look for a person’s Twitter profile, you’ll brought to the official Twitter app and not the third party Twitter client your choice such as Tweetbot or Twitterrific.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;p&gt;Notes get big overhaul in iOS 9 and OS X El Capitan. You can now insert photo, PDF files, videos, weblinks and more to make contents inside it richer than just rich text formatting. You can drag n drop to OS X El Capitan Notes apps to insert files. While on iOS, you can utilize share sheets. Not stopping there, you can doodling inside Notes app on iOS 9 and OS X El Capitan. Apple also add sync and search features since it’s tied to iCloud account. When you make a new note on iPhone, it’ll available on all of your devices with the same iCloud accounts. Even it’s not as advance as &lt;a href=&quot;http://evernote.com/&quot;&gt;Evernote&lt;/a&gt;, yet, but finally Apple give attention to its Notes apps to shorten the gap with third party note taking apps.&lt;/p&gt;
+
+&lt;h2 id=&quot;quicktype&quot;&gt;Quicktype&lt;/h2&gt;
+
+&lt;p&gt;Quicktype was the name of the keyboard Apple announced last year. On iOS 9, Apple optimize it. The most noticeable is now Apple visualize lower and uppercase on its keyboard, make it easier to know what case you’ll type next. For a long time jailbroken iOS devices user, I’ve been use this features with the tweak called &lt;a href=&quot;http://cydia.saurik.com/package/jp.ashikase.showcase/&quot;&gt;ShowCase&lt;/a&gt;. It’s easier to see than to glance at the shift key&lt;sup id=&quot;fnref:fn1&quot;&gt;&lt;a href=&quot;#fn:fn1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Apple also let you to disable the pop-up as you type on its keyboard. iPad will gain more benefit on iOS 9 as Apple optimize its keyboard, I’ll tell you why:&lt;/p&gt;
+
+&lt;h3 id=&quot;shortcut-and-trackpads&quot;&gt;Shortcut and trackpads&lt;/h3&gt;
+
+&lt;p&gt;On iPad, Apple add a new bar above the keyboard. Not just showing predictions about what will you type, it now also contains several button to let you cut, copy, paste to the left side. For formatting, Apple add shortcuts to bold, italic or underline selected text shortcut to the right side.&lt;/p&gt;
+
+&lt;p&gt;At least Apple granted my iOS 9 wishlist&lt;sup id=&quot;fnref:fn2&quot;&gt;&lt;a href=&quot;#fn:fn2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; with bringing a features that allow user to move the cursor and select some text with just swiping over the keyboard. On jailbroken iOS devices, you can have this functionality by install &lt;a href=&quot;http://cydia.saurik.com/package/com.iky1e.swipeselection/&quot;&gt;SwipeSelection&lt;/a&gt; tweak. Maybe this is the reason why I still jailbreak my iOS devices. This tweak offers moving cursor just by swiping over the keyboard and you can select some text just by swipe from shift or backspace key. On iOS 9, Apple let you to move cursor by placing and swipe using two fingers on the keyboard. Even the implementation is little bit different but I’m happy that finally Apple bring this features.&lt;/p&gt;
+
+&lt;p&gt;Some sources said that it works on iPad only but I’ve been asked some people on Twitter that it works on iPhone too. Anyone confirm?&lt;/p&gt;
+
+&lt;h2 id=&quot;multitasking&quot;&gt;Multitasking&lt;/h2&gt;
+
+&lt;p&gt;Apple brings more advanced multitasking features on iPad with iOS 9. 
+With the new multitasking features on iOS 9, Apple push iPad to become &lt;a href=&quot;http://www.macstories.net/stories/ipad-air-2-review-why-the-ipad-became-my-main-computer/&quot;&gt;primary computer for some people&lt;/a&gt;. iOS 9 will boost iPad functionality than just consuming devices.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-over&quot;&gt;Slide Over&lt;/h3&gt;
+&lt;p&gt;Works on iPad Air, iPad Air 2, iPad mini 2, and iPad mini 3 it allows you to bring access to the second app without leaving the primary app you’ve opened. You can reply to your girlfriend’s iMessages without need to leave Safari while reading or browsing something&lt;sup id=&quot;fnref:fn3&quot;&gt;&lt;a href=&quot;#fn:fn3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. Once you reply it, you can dismiss the Slide Over sidebar and continue reading or browsing or whatever you’re currently doing. You just need to swipe from the right edge of the display just like as easy as accessing Control Center to invoke Slide Over. You can’t interact with the primary app while accessing the app you open with Slide Over.&lt;/p&gt;
+
+&lt;h3 id=&quot;split-view&quot;&gt;Split View&lt;/h3&gt;
+
+&lt;p&gt;Available only for iPad Air 2, Split View features brings true multitasking to iPad which allow you to interact with two apps with the same time. It will be useful when you’re doing research using Safari and Notes app side by side. The implementation doesn’t feel intrusive at all. You have to own an iPad Air 2 with 2 GB RAM and Apple A8X processors. I wonder if someday iOS 9 is jailbreakable, would there’ll be a tweak to enable Split View on older devices? Today on jailbreak world there’s &lt;a href=&quot;http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mirmirDp&quot;&gt;Mirmir&lt;/a&gt; tweak that bring multitasking further than iOS stocks today&lt;sup id=&quot;fnref:fn4&quot;&gt;&lt;a href=&quot;#fn:fn4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. With this tweak you can run 4 apps simultaneously on iPad. With Split View near in the future, I would like to see a tweak to enable it natively for older devices.&lt;/p&gt;
+
+&lt;h3 id=&quot;picture-in-picture&quot;&gt;Picture in Picture&lt;/h3&gt;
+
+&lt;p&gt;In short words, you can now watch or stream videos in a floating window so you could browsing or tweeting at the same time.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, &lt;a href=&quot;http://rpetri.ch/cydia/videopane/&quot;&gt;VideoPane&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All of this multitasking on iOS 9 would give great benefit for iPad. With larger display, user can utilize it to do more than just stock iOS do pre iOS 9. Maybe Apple would give iPad a shot to become productivity tablet everyone should have because of the decreased number of sales.&lt;/p&gt;
+
+&lt;h2 id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+
+&lt;p&gt;6 digits passcode instead of 4, built in &lt;a href=&quot;https://developer.apple.com/support/two-factor-authentication/&quot;&gt;2-factor authentication&lt;/a&gt;, Better App Transport Security, and a better approach to data operations which Apple doesn’t following what competitors did by uploading personal data to the cloud to give personalize service. Apple store the data on the device and compute there so you don’t have to worry about your personal data on Apple’s server.&lt;/p&gt;
+
+&lt;h2 id=&quot;update-to-ios-9&quot;&gt;Update to iOS 9&lt;/h2&gt;
+
+&lt;p&gt;Updating to iOS 8 is sure a big problem, literally. You need almost 5GB empty space on your devices to perform OTA Update. However, iOS 9 will only need 1.3GB. Apple also offers to delete some apps if your empty space isn’t sufficient to perform the update and reinstall it after the update is done. Overmore, there’s a new technology Apple introduced with iOS 9 called &lt;a href=&quot;https://developer.apple.com/library/prerelease/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AppThinning/AppThinning.html#//apple_ref/doc/uid/TP40012582-CH35&quot;&gt;App Thinning&lt;/a&gt; which is split into 3 different mechanisms that can reduce the size of an app. App slicing, On Demand Resources(ODRs) and Bitcode. You can read the explanation about how these three mechanisms work on &lt;a href=&quot;http://arstechnica.com/apple/2015/06/app-thinning-will-be-a-major-boon-for-8gb-and-16gb-iphones-and-ipads/&quot;&gt;ArsTechnica&lt;/a&gt;. They explained it in details and why it matters for iOS devices with 8GB and 16GB storage.&lt;/p&gt;
+
+&lt;h2 id=&quot;so&quot;&gt;So?&lt;/h2&gt;
+
+&lt;p&gt;It’s good to see that Apple slowly make iOS more open than it was, with third party keyboard, Touch ID API, Notification Center widgets, iOS is more customizeable than previous version. Make iOS more open is a story, balancing it with user privacy and security is another story.&lt;/p&gt;
+
+&lt;p&gt;Nightmode, one features I wished that could change iOS color scheme to dark isn’t delivered by Apple. The purpose of Nightmode is to make using iOS more pleasant to use at night. When you use iOS at night, our eyes become tired easily because of the mainly white color on iOS today, even when you’ve turned down the brightness into lowest point.&lt;/p&gt;
+
+&lt;p&gt;iOS 9 not just brings optimizations and stability improvements but also bunch of features that boost functionality, especially for iPad. With multitasking features and keyboard shortcut, Apple push iPad to become productivity tablet without intention to replacing Mac.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn1&quot;&gt;
+      &lt;p&gt;Which is confusing and Apple takes a long time to fix it &lt;a href=&quot;#fnref:fn1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn2&quot;&gt;
+      &lt;p&gt;It’s my old website that talks about tech before this site is up, I’ll just let it there. You know, memories, archives or whatever you called it &lt;a href=&quot;#fnref:fn2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn3&quot;&gt;
+      &lt;p&gt;Win-win solution, huh?! &lt;a href=&quot;#fnref:fn3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:fn4&quot;&gt;
+      &lt;p&gt;You can read iDownloadblog review &lt;a href=&quot;http://www.idownloadblog.com/2015/06/30/mimir-multiple-apps-multitasking-ios-8-3/&quot;&gt;here&lt;/a&gt; &lt;a href=&quot;#fnref:fn4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Thu, 16 Jul 2015 20:26:33 +0700</pubDate>
+				<link>http://hyperplex.co/article/2015/07/16/late-thought-on-ios-9/</link>
+				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/16/late-thought-on-ios-9/</guid>
+			</item>
+		
+			<item>
+				<title>Web Links for July 16, 2015</title>
+				<description>&lt;dl&gt;
+  &lt;dt&gt;&lt;a href=&quot;https://blog.todoist.com/2015/07/02/get-ahead-simply-asking-right-way/&quot;&gt;How to Get Ahead By Simply Asking (The Right Way)&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;From a discount on your daily latte to a yearly raise at work, learn the best tips on how to get ahead by simply asking (hint: it’s easier than you think!)&lt;/dd&gt;
+  &lt;dt&gt;&lt;a href=&quot;http://pickletheory.com/693/paying-for-productivity-apps/&quot;&gt;Why I Buy “All Those Apps” - The Pickle Theory&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;If you’re asked by your friends about why you buy apps, send them this links.&lt;/dd&gt;
+  &lt;dt&gt;&lt;a href=&quot;http://regexcheatsheet.com/&quot;&gt;Regular Expressions Cheat Sheet | Python, PHP, Perl&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;As seen on title.&lt;/dd&gt;
+  &lt;dt&gt;&lt;a href=&quot;http://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/&quot;&gt;Sublime Text 3 Guide: Tips, Tricks, and Shortcuts&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;Sublime Text is my choice of text editor, I blog from writing to uploading to the host site from Sublime Text.&lt;/dd&gt;
+  &lt;dt&gt;&lt;a href=&quot;http://www.rexegg.com/&quot;&gt;www.rexegg.com&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;I start to learn regular expressions in my spare time and this site has great resources.&lt;/dd&gt;
+&lt;/dl&gt;
+
+</description>
+				<pubDate>Thu, 16 Jul 2015 15:11:00 +0700</pubDate>
+				<link>http://hyperplex.co/bookmarks/2015/07/16/2015-07-16-web-excursions-july-16-2015/</link>
+				<guid isPermaLink="true">http://hyperplex.co/bookmarks/2015/07/16/2015-07-16-web-excursions-july-16-2015/</guid>
+			</item>
+		
+			<item>
+				<title>Watch Satoru Iwata's inspiring GDC 2005 talk in full</title>
+				<description>
+</description>
+				<pubDate>Wed, 15 Jul 2015 00:00:00 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/15/watch-satoru-iwata's-inspiring-gdc-2005-talk-in-full/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/15/watch-satoru-iwata's-inspiring-gdc-2005-talk-in-full/</guid>
+			</item>
+		
+			<item>
 				<title>Hi, Pluto!</title>
 				<description>&lt;p&gt;Finally, we could see Pluto’s best face on July 14th as NASA’s New Horizons spacecraft flyby the dwarf planet which used to be our family in solar system. At 7.49 PM EDT the spacecraft flew within 7.750 miles or 12.500 near Pluto.&lt;/p&gt;
 
@@ -17,6 +145,17 @@
 				<pubDate>Wed, 15 Jul 2015 00:00:00 +0700</pubDate>
 				<link>http://hyperplex.co/linked/2015/07/15/hi-pluto/</link>
 				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/15/hi-pluto/</guid>
+			</item>
+		
+			<item>
+				<title>Apple Music eating your iPhone's cellular data plan? Here's how to fix it!</title>
+				<description>&lt;blockquote&gt;
+  &lt;p&gt;If you’re worried about running out of data this month, here are a few tweaks and fixes you can try.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+				<pubDate>Wed, 15 Jul 2015 00:00:00 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/15/apple-music-eating-your-iphone's-cellular-data-plan%3F-here's-how-to-fix-it!/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/15/apple-music-eating-your-iphone's-cellular-data-plan%3F-here's-how-to-fix-it!/</guid>
 			</item>
 		
 			<item>
@@ -98,95 +237,6 @@
 				<pubDate>Fri, 10 Jul 2015 00:00:00 +0700</pubDate>
 				<link>http://hyperplex.co/article/2015/07/10/apple-released-two-ads-for-iphone/</link>
 				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/10/apple-released-two-ads-for-iphone/</guid>
-			</item>
-		
-			<item>
-				<title>Why I Buy “All Those Apps”</title>
-				<description>&lt;p&gt;Shibel K. Mansour:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Where financially possible, people also trade money for time. We hire assistants, maids, secretaries, gardeners, and babysitters. These are very common and legitimate money-for-time trades. We also buy products to save us time: microwaves, espresso machines, clothes dryers…&lt;/p&gt;
-
-  &lt;p&gt;So why don’t we “hire” apps for the same purpose? Among the people I know, there aren’t many whose time (and money) couldn’t be better utilized with a simple automation trick or a dirt-cheap app.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I buy apps and sometimes my friends ask me why I waste my money to such an app that can be replaced with post-it or agenda which I get every year from my office. I just smile. Now when someone ask me the same question again, I’ll just send them this link.&lt;/p&gt;
-</description>
-				<pubDate>Thu, 09 Jul 2015 23:24:55 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/09/why-i-buy-all-those-apps/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/09/why-i-buy-all-those-apps/</guid>
-			</item>
-		
-			<item>
-				<title>iOS 9 to bring albums for selfies and screenshots, bigger grids for iPad folders</title>
-				<description>&lt;p&gt;Joseph Keller on iMore:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For photos users, Apple has introduced two new albums that automatically collect certain types of images. The new Screenshots album will gather all of your screenshots, while the Selfie album will do the same for photos taken with an iOS device’s front-facing FaceTime camera.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s worth mentioned that additional album for screenshots useful for they who often generates it.&lt;/p&gt;
-</description>
-				<pubDate>Thu, 09 Jul 2015 19:26:54 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/09/ios-9-to-bring-albums-for-selfies-and-screenshots-bigger-grids-for-ipad-folders/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/09/ios-9-to-bring-albums-for-selfies-and-screenshots-bigger-grids-for-ipad-folders/</guid>
-			</item>
-		
-			<item>
-				<title>Moving to DuckDuckGo</title>
-				<description>&lt;p&gt;There are choices when it comes to search engines. Google search maybe the first thing that pop-out in your head. It’s okay but let me tell you something. For several weeks, &lt;a href=&quot;http://hyperplex.co/linked/2015/07/05/duckduckgo-bangs-search/&quot;&gt;I’ve switched my search engines on my iPhone, iPad and Mac to DuckDuckGo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;DuckDuckGo is listed as search engines in Safari along with Yahoo and Bing besides Google. Even the result page isn’t as intuitive as Google when it comes to search for news, DuckDuckGo’s result is pretty relevant and reliable.&lt;/p&gt;
-
-&lt;p&gt;There’s nothing wrong using Google as default search engine. I think we already know that Google track your search and click through your search. It’s their business. Google collect your data and monetize it, it’s no secret anymore. If you fine with it then you don’t need to finish reading this post.&lt;/p&gt;
-
-&lt;p&gt;DuckDuckGo with its premises “The search engine that doesn’t track you” is just enough reason for me to switch over Google. Overmore you can optimize your search using &lt;a href=&quot;https://duckduckgo.com/bang&quot;&gt;prefix bang operators&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you need to search for Macbook Pro Retina on Amazon, you can use bang !a macbook pro retina at DuckDuckGo’s search bar and you’ll sent directly to &lt;a href=&quot;http://www.amazon.com&quot;&gt;Amazon&lt;/a&gt; search result web page instead of DuckDuckGo’s result page. DuckDuckGo has thousands bang operators you can use and even you can submit your own bang to search directly on you site. Some of the popular bang you can use:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;!w - &lt;a href=&quot;https://www.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;!imdb - &lt;a href=&quot;https://www.imdb.com/&quot;&gt;IMDB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;!pin - &lt;a href=&quot;http://www.pinterest.com/&quot;&gt;Pinterest&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;!wa - &lt;a href=&quot;http://www.wolframalpha.com/&quot;&gt;WolframAlpha&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;!imgur - &lt;a href=&quot;https://www.imgur.com/&quot;&gt;Imgur&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you’re not satisfied with the result, you can use !g bang to do Google search, the bonus is it doesn’t track you since you’re using &lt;code&gt;encrypted.google.com&lt;/code&gt; for this search. There are several bang for another types Google Search, such as images, videos, calendar, etc too.&lt;/p&gt;
-
-&lt;p&gt;DuckDuckGo’s website traffic has increased up to 600% for the last two years according the CEO, Gabe Weinberg on an interview with CNBC. As pointed out &lt;a href=&quot;http://9to5mac.com/2015/06/16/duckduckgo-growth-ios/&quot;&gt;by 9to5Mac&lt;/a&gt;, there are variety factors for &lt;a href=&quot;https://daringfireball.net/linked/2015/06/19/duckduckgo&quot;&gt;the rise of DuckDuckGo&lt;/a&gt;, NSA’s surveillance program and Apple listed them as search engine on iOS 8 and Safari 7.1 on Mac. I wonder how much they’ll growth if someday Apple make them as the default search engine replacing Google on iOS and Mac.&lt;/p&gt;
-
-&lt;p&gt;If you wondering how DuckDuckGo make money from its services, &lt;a href=&quot;https://www.fastcompany.com/3046943/how-duckduckgo-rode-a-wave-of-post-snowden-anxiety-to-massive-growth&quot;&gt;John Paul Wiltow write on Fast Company&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Instead of profiting from heaps of user data, DuckDuckGo has opted for a simpler business model: Old-school search ads that pair the keywords in people’s queries with relevant ads placed by the highest bidder. Weinberg says the company also makes money from affiliate links to sites like Amazon and eBay.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There’s interesting data on John’s article, apparently 40% U.S adults don’t want the search engines to track what they search, based on Pew Research Center’s survey. John also pointed out that even it doesn’t monetize your click through web search, DuckDuckGo still make revenue which allow the company to hire a new people and mantain its sustainability.&lt;/p&gt;
-
-&lt;p&gt;So, let me courage you to switch to DuckDuckGo for a week first.&lt;/p&gt;
-
-</description>
-				<pubDate>Thu, 09 Jul 2015 00:00:00 +0700</pubDate>
-				<link>http://hyperplex.co/article/2015/07/09/moving-to-duckduckgo/</link>
-				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/09/moving-to-duckduckgo/</guid>
-			</item>
-		
-			<item>
-				<title>iOS 8 adoption flat at 84 percent, but iOS 8.4 matches Android KitKat and Jelly Bean adoption</title>
-				<description>&lt;p&gt;iDownloadblog:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Two weeks ago, the same 84 percent figure was captured by Apple, indicating that the number of users who have upgraded from previous iOS editions to iOS 8, or bought a new device with iOS 8 pre-installed, wasn’t enough to move the needle.&lt;/p&gt;
-
-  &lt;p&gt;More interesting than that, however, is the latest data point by analysts Mixpanel which basically tells us that the recently-released iOS 8.4 software update now accounts for 40 percent of all iOS usage, just one week after release.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;One can guarantee you when using an iOS devices is you can update to the latest version of iOS in day one after it’s released.&lt;/p&gt;
-</description>
-				<pubDate>Thu, 09 Jul 2015 00:00:00 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/09/ios-8-adoption-flat-at-84-percent-but-ios-84-matches-android-kitkat-and-jelly-bean-adoption/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/09/ios-8-adoption-flat-at-84-percent-but-ios-84-matches-android-kitkat-and-jelly-bean-adoption/</guid>
 			</item>
 		
 	</channel>

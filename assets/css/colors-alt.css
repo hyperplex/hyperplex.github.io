@@ -1,6 +1,7 @@
 html, body {
-	background-color: #F5F3EE;
+	/*background-color: #F5F3EE;*/
 	color: #2B2B2B;
+	background-color: #fffdfd
 }
 
 a, a:visited, a:active {
