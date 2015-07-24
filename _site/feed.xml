@@ -2,9 +2,181 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Hyperplex</title>
-		<description>It leads Nowhere</description>
+		<description>A blog by Daniel Aditya Istyana which will talk about technology and news arounds Apple. Sometimes you've nothing to read here and of course it leads nowhere.</description>
 		<link>http://hyperplex.co</link>
 		<atom:link href="http://hyperplex.co/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Plotting Apple</title>
+				<description>&lt;p&gt;Dr. Drang has interesting takes on plotting Apple’s sales and revenue using Python/ Matplotlib code:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Every data point in the graph (except for the first three for each device) represents an average of the sales for four quarters: the current quarter and the previous three. The idea behind the averaging is to smooth out the strongly seasonal ups and downs in the raw quarterly data.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+				<pubDate>Fri, 24 Jul 2015 16:52:26 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/plotting-apple/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/plotting-apple/</guid>
+			</item>
+		
+			<item>
+				<title>OS X 10.10 DYLD_PRINT_TO_FILE Local Privilege Escalation Vulnerability</title>
+				<description>&lt;p&gt;&lt;a href=&quot;https://twitter.com/i0n1c&quot;&gt;Stefan Esser&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With the release of OS X 10.10 Apple added some new features to the dynamic linker dyld. One of these features is the new environment variable &lt;strong&gt;DYLD_PRINT_TO_FILE&lt;/strong&gt; that enables error logging to an arbitrary file.[…]. When this variable was added the usual safeguards that are required when adding support for new environment variables to the dynamic linker have not been used. Therefore it is possible to use this new feature even with SUID root binaries. This is dangerous, because it allows to open or create arbitrary files owned by the root user anywhere in the file system. Furthermore the opened log file is never closed and therefore its file descriptor is leaked into processes spawned by SUID binaries. This means child processes of SUID root processes can write to arbitrary files owned by the root user anywhere in the filesystem. This allows for easy privilege escalation in OS X 10.10.x.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Furthermore Esser explained that this isn’t patched on OS X 10.10.4 or the beta 10.10.5 but get fixed on OS X El Capitan. If you’re on OS X 10.10.4, Esser offer interim fix on &lt;a href=&quot;https://github.com/sektioneins/SUIDGuard&quot;&gt;Github&lt;/a&gt; but since it isn’t official fix, install at your own risk.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 24 Jul 2015 15:39:41 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/os-x-1010-dyld-print-to-file-local-privilege-escalation-vulnerability/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/os-x-1010-dyld-print-to-file-local-privilege-escalation-vulnerability/</guid>
+			</item>
+		
+			<item>
+				<title>Apple Q3 2015 Financial Reports</title>
+				<description>&lt;p&gt;From today Apple’s Q3 2015 financial reports:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iPhone unit sales grew 35%, revenue grew even more up to 59%. It’s sold 47.5 million.&lt;/li&gt;
+  &lt;li&gt;They sold 10.9 million iPad, lesser than two previous quarter with Q1 21.4 million, Q2 12.6 million. Let’s see if iOS 9 will give iPad sales bumps next quarter.&lt;/li&gt;
+  &lt;li&gt;Mac is sold 4.8 million, slightly higher than previous quarter with 4.6 million. Market research firm IDC says that PC shipments &lt;a href=&quot;/linked/2015/07/pc-sales-continue-to-fall/&quot;&gt;drop up to 12%&lt;/a&gt; while its rival, Garner says it fell down to 9.5%. At the same time, Apple’s Mac sales continue grew by 9%. Meanwhile Peter Cohen on &lt;a href=&quot;http://www.imore.com/another-smashing-quarter-mac-sales-while-pc-sales-continue-drop&quot;&gt;iMore&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Apple earned 10.7 billion profit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to see some chart about Apple Q3 financial report then &lt;a href=&quot;http://www.macstories.net/news/apple-q3-2015-results-49-6-billion-revenue-47-5-million-iphones-10-9-million-ipads-sold/&quot;&gt;Macstories&lt;/a&gt; and &lt;a href=&quot;http://sixcolors.com/post/2015/07/appleq3results/&quot;&gt;SixColors&lt;/a&gt; have it for you.&lt;/p&gt;
+
+&lt;p&gt;Here’s some interesting tweet about Apple Q3 financial report:&lt;/p&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;“Other” was up $1B from last quarter. If Apple Watch ASP is $500, that’s 2 million watches.&lt;/p&gt;&amp;mdash; Eric Slivka (@eslivka) &lt;a href=&quot;https://twitter.com/eslivka/status/623592897137537024&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;CNBC: TC says revenue in Greater China up ~112% in the quarter&lt;/p&gt;&amp;mdash; MacJournals.com (@macjournals) &lt;a href=&quot;https://twitter.com/macjournals/status/623591670940971008&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Whatever estimates u have for the AppleWatch 1 thing is for sure, Apple sold more Watches in 2Q15 than all other smartwatch vendors combined&lt;/p&gt;&amp;mdash; Francisco Jeronimo (@fjeronimo) &lt;a href=&quot;https://twitter.com/fjeronimo/status/623609281821052928&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Apple’s Other product category is now a billion dollars bigger this quarter. In other words, Apple Watch is a multi-$bn business already&lt;/p&gt;&amp;mdash; Steve T-S (@stroughtonsmith) &lt;a href=&quot;https://twitter.com/stroughtonsmith/status/623596899526905856&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Also of note: Apple Watch was only in stores for /2 weeks/ of last quarter&lt;/p&gt;&amp;mdash; Steve T-S (@stroughtonsmith) &lt;a href=&quot;https://twitter.com/stroughtonsmith/status/623598890336563200&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;This is unbelievable.&amp;#10;&amp;#10;Apple&amp;#39;s cash pile is now almost as big as all of Greece&amp;#39;s GDP &lt;a href=&quot;http://t.co/HcGxtD8sMK&quot;&gt;http://t.co/HcGxtD8sMK&lt;/a&gt;&amp;#10;&amp;#10;&lt;a href=&quot;https://twitter.com/search?q=%24AAPL&amp;amp;src=ctag&quot;&gt;$AAPL&lt;/a&gt; &lt;a href=&quot;http://t.co/gART94Ryru&quot;&gt;pic.twitter.com/gART94Ryru&lt;/a&gt;&lt;/p&gt;&amp;mdash; StockTwits (@StockTwits) &lt;a href=&quot;https://twitter.com/StockTwits/status/623605380699017216&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;iPhone is at the second highest price point it has ever achieved.&lt;/p&gt;&amp;mdash; Horace Dediu (@asymco) &lt;a href=&quot;https://twitter.com/asymco/status/623600168366116864&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Apple saw the highest switching rate from Android they’ve ever measured, says Tim Cook.&lt;/p&gt;&amp;mdash; Matthew Panzarino (@panzer) &lt;a href=&quot;https://twitter.com/panzer/status/623599708867567616&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed twitter&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I believe that Apple is the first company to break $1B in revenue for a wearable— and that&amp;#39;s in less than a quarter.&lt;/p&gt;&amp;mdash; Carl Howe (@cdhowe) &lt;a href=&quot;https://twitter.com/cdhowe/status/623626585510424576&quot;&gt;July 21, 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+</description>
+				<pubDate>Wed, 22 Jul 2015 00:00:00 +0700</pubDate>
+				<link>http://hyperplex.co/article/2015/07/apple-q3-2015-financial-reports/</link>
+				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/apple-q3-2015-financial-reports/</guid>
+			</item>
+		
+			<item>
+				<title>Theranos and Why It Matters</title>
+				<description>&lt;p&gt;&lt;a href=&quot;https://www.theranos.com/&quot;&gt;Theranos&lt;/a&gt; the startup company which offer low cost lab test is received approval from Food and Drug Administration to perform herpes simplex 1 test outside the lab, according to &lt;a href=&quot;http://techcrunch.com/2015/07/18/theranos-gains-fda-approval-to-test-for-herpes-outside-the-lab/&quot;&gt;TechCrunch&lt;/a&gt;. The approval classified as CLIA Certificate waiver that will allow testing outside the lab with little error.&lt;/p&gt;
+
+&lt;p&gt;The Founder, Elizabeth Holmes when &lt;a href=&quot;http://www.bizjournals.com/sanfrancisco/blog/biotech/2014/09/theranos-elizabeth-holmes-disrupt-blood-test.html&quot;&gt;talked at Techcrunch’s Disrupt Conferences&lt;/a&gt; told that Theranos aim to perform lab test with only small amount of blood which can be obtained from a simple finger prick at low cost. Since I work as an QA Officer of one clinical laboratory, Theranos quickly gets my attention.&lt;/p&gt;
+
+&lt;p&gt;First, I’m wondering what’s the technology behind Theranos device which make it’s possible to run the test with only few drops of blood. On a regular lab test, the patient’s blood need to be taken with venipuncture and processed to produce serum which we’ll run into analyzer. You’ve to go through pre-analytic, analytic and post-analytic process carefully to produce reliable and accurate result. When big analyzer perform test based on &lt;a href=&quot;https://en.wikipedia.org/wiki/Spectrophotometry&quot;&gt;spectrophotometry&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/High-performance_liquid_chromatography&quot;&gt;HPLC&lt;/a&gt; even to &lt;a href=&quot;https://en.wikipedia.org/wiki/Mass_spectrometry&quot;&gt;mass-spectrophotometry&lt;/a&gt; method to analyze sample, the question is what method does Theranos devices use to produce the result? The reliable result?&lt;/p&gt;
+
+&lt;p&gt;Secondly, about &lt;a href=&quot;https://en.wikipedia.org/wiki/Quality_control&quot;&gt;quality control&lt;/a&gt;. On regular lab test using analyzer, we need to perform quality control before we run patient’s sample. The purpose of running control is to ensure that all the test system which is used is running properly and produce acurate result. Again, the question is how the perform quality control on Theranos devices? Do they only need to be calibrated and you can use it o what?&lt;/p&gt;
+
+&lt;p&gt;In addition besides method and quality control is cost. We all clinical laboratory try to give the best value for our customer. Ideally it would be low cost lab tes, quick turnaround time and acurate result. Maybe it’s no an apple to apple comparison since on the regular lab there would be a lot of additional material which is used in the process. But let me write this here, the new HSV1 which is newly got approved by FDA by Theranos costs $9.07, while today on our lab HSV1 costs approximately $22&lt;sup id=&quot;fnref:fn1&quot;&gt;&lt;a href=&quot;#fn:fn1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; using automated analyzer. Theranos’ HbA1C test which is used to monitor average glucose level in the blood for the last 2-3 months, &lt;a href=&quot;https://www.theranos.com/test-menu/test/82947&quot;&gt;cost $6.67&lt;/a&gt;, on us it’s $11.54.&lt;/p&gt;
+
+&lt;p&gt;Of course the higher price not just from the reagen but also the result of the additional material we use to perform the test from pre to post analytic such as syringe and vacuum tube to collect the patient’s specimen, tube to store the serum and more.&lt;/p&gt;
+
+&lt;p&gt;Sure, Theranos technology could benefit us to the future. Performing lab testing outside laborartory with less errors means we could bring the device to remote areas. It would be more practical tho. The patient also could take the benefit from its system since it would be less pain when obtaining specimen, less blood to be taken.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:fn1&quot;&gt;
+      &lt;p&gt;Based on exchange rate this post is written since we use different currency &lt;a href=&quot;#fnref:fn1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+				<pubDate>Tue, 21 Jul 2015 21:15:19 +0700</pubDate>
+				<link>http://hyperplex.co/article/2015/07/theranos-and-why-it-matters/</link>
+				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/theranos-and-why-it-matters/</guid>
+			</item>
+		
+			<item>
+				<title>PC Sales Continue to Fall</title>
+				<description>&lt;p&gt;Robert McMillan writing for WSJ:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Worldwide PC shipments saw their sharpest decline in nearly two years in the second quarter of 2015, dealing continued damage to retailers and makers of computers, chips and PC software.&lt;/p&gt;
+
+  &lt;p&gt;Shipments fell 9.5 percent, year on year, to 68.4 million units, according to the research firm Gartner. Rival researcher IDC, which doesn’t include tablets in its tally, tracked an 11.8 percent drop, year on year, to 66.1 million shipments during the quarter. Both firms released PC sales reports on Wednesday&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So is it confirmed that &lt;a href=&quot;/linked/2015/07/apples-mac-is-now-the-only-major-pc-brand-thats-growing/&quot;&gt;Mac is the only major PC brand thats growing&lt;/a&gt;? I think so.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 21 Jul 2015 19:09:11 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/pc-sales-continue-to-fall/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/pc-sales-continue-to-fall/</guid>
+			</item>
+		
+			<item>
+				<title>Who's Actually Buying iPods These Days?</title>
+				<description>&lt;p&gt;Sometimes we need to see some things from different perspective and Matt Birchler shared to us who actually buy iPod these days as he worked managing electronic departement at target.&lt;/p&gt;
+
+&lt;p&gt;Matt Birchler:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So who are iPods for? They’re for people who don’t have a smartphone, and that’s about it. This makes complete sense, though. The smartphone came in and ate so many products’ lunch. Apple’s iPhone can do everything these iPods can do and do so much more as well. A smartphone is almost essential if you’re a young to middle age adult these days, so you probably already have one in your pocket. For that majority of the population, iPods are redundant, and they don’t even think about them most of the time.&lt;/p&gt;
+
+  &lt;p&gt;iPods remain somewhat relevant amongst the very young and very old. But once again, the rise of affordable tablets has made even those markets shrink by the day. It’s hard to think the iPod line is going to do anything but continue shrink even with this refresh.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I remember back when I got my first iPod Touch 4G on 2011. It’s beautiful device even the back scratch so easily. I purchased it for mostly played games and dumped my music collections there. It’s great device to killing time but with now iPhone take the world and large screen iPad become more affordable, it just the matter of time till Apple kill the iPod line up. Or maybe I’m wrong.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 21 Jul 2015 17:11:58 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/whos-actually-buying-ipods-these-days/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/whos-actually-buying-ipods-these-days/</guid>
+			</item>
+		
+			<item>
+				<title>Views of Pluto Through the Years</title>
+				<description>&lt;p&gt;The faces of Pluto since first captured in 1930 till now when the New Horizons spacecraft flyby and took closer images of the dwarf planet.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 20 Jul 2015 15:33:43 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/views-of-pluto-through-the-years/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/views-of-pluto-through-the-years/</guid>
+			</item>
+		
+			<item>
+				<title>Fun with TextExpander and Scripting</title>
+				<description>&lt;p&gt;TextExpander 5 now supports JavaScript snippets and it can run on iPhone, iPad, and Mac. This is one of the snippets sample using JavaScript which will round the current date to the closest 5 minutes.&lt;/p&gt;
+
+&lt;p&gt;This app is really a time saver. If you haven’t use it, now it’s time to &lt;a href=&quot;https://itunes.apple.com/us/app/id917416298&amp;amp;at=1010lDx&amp;amp;ct=aditya&quot;&gt;get ‘em&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				<pubDate>Mon, 20 Jul 2015 15:24:51 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/fun-with-textexpander-and-scripting/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/fun-with-textexpander-and-scripting/</guid>
+			</item>
+		
+			<item>
+				<title>Google Is Hiring An SEO Manager To Improve Its Rankings In Google</title>
+				<description>&lt;p&gt;If this is for real, they must be doomed.&lt;/p&gt;
+
+</description>
+				<pubDate>Mon, 20 Jul 2015 00:00:00 +0700</pubDate>
+				<link>http://hyperplex.co/linked/2015/07/google-is-hiring-an-seo-manager-to-improve-its-rankings-in-google/</link>
+				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/google-is-hiring-an-seo-manager-to-improve-its-rankings-in-google/</guid>
+			</item>
 		
 			<item>
 				<title>Late Thought on iOS 9</title>
@@ -100,143 +272,8 @@ With the new multitasking features on iOS 9, Apple push iPad to become &lt;a hre
 &lt;/div&gt;
 </description>
 				<pubDate>Thu, 16 Jul 2015 20:26:33 +0700</pubDate>
-				<link>http://hyperplex.co/article/2015/07/16/late-thought-on-ios-9/</link>
-				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/16/late-thought-on-ios-9/</guid>
-			</item>
-		
-			<item>
-				<title>Web Links for July 16, 2015</title>
-				<description>&lt;dl&gt;
-  &lt;dt&gt;&lt;a href=&quot;https://blog.todoist.com/2015/07/02/get-ahead-simply-asking-right-way/&quot;&gt;How to Get Ahead By Simply Asking (The Right Way)&lt;/a&gt;&lt;/dt&gt;
-  &lt;dd&gt;From a discount on your daily latte to a yearly raise at work, learn the best tips on how to get ahead by simply asking (hint: it’s easier than you think!)&lt;/dd&gt;
-  &lt;dt&gt;&lt;a href=&quot;http://pickletheory.com/693/paying-for-productivity-apps/&quot;&gt;Why I Buy “All Those Apps” - The Pickle Theory&lt;/a&gt;&lt;/dt&gt;
-  &lt;dd&gt;If you’re asked by your friends about why you buy apps, send them this links.&lt;/dd&gt;
-  &lt;dt&gt;&lt;a href=&quot;http://regexcheatsheet.com/&quot;&gt;Regular Expressions Cheat Sheet | Python, PHP, Perl&lt;/a&gt;&lt;/dt&gt;
-  &lt;dd&gt;As seen on title.&lt;/dd&gt;
-  &lt;dt&gt;&lt;a href=&quot;http://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/&quot;&gt;Sublime Text 3 Guide: Tips, Tricks, and Shortcuts&lt;/a&gt;&lt;/dt&gt;
-  &lt;dd&gt;Sublime Text is my choice of text editor, I blog from writing to uploading to the host site from Sublime Text.&lt;/dd&gt;
-  &lt;dt&gt;&lt;a href=&quot;http://www.rexegg.com/&quot;&gt;www.rexegg.com&lt;/a&gt;&lt;/dt&gt;
-  &lt;dd&gt;I start to learn regular expressions in my spare time and this site has great resources.&lt;/dd&gt;
-&lt;/dl&gt;
-
-</description>
-				<pubDate>Thu, 16 Jul 2015 15:11:00 +0700</pubDate>
-				<link>http://hyperplex.co/bookmarks/2015/07/16/2015-07-16-web-excursions-july-16-2015/</link>
-				<guid isPermaLink="true">http://hyperplex.co/bookmarks/2015/07/16/2015-07-16-web-excursions-july-16-2015/</guid>
-			</item>
-		
-			<item>
-				<title>Watch Satoru Iwata's inspiring GDC 2005 talk in full</title>
-				<description>
-</description>
-				<pubDate>Wed, 15 Jul 2015 00:00:00 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/15/watch-satoru-iwata's-inspiring-gdc-2005-talk-in-full/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/15/watch-satoru-iwata's-inspiring-gdc-2005-talk-in-full/</guid>
-			</item>
-		
-			<item>
-				<title>Hi, Pluto!</title>
-				<description>&lt;p&gt;Finally, we could see Pluto’s best face on July 14th as NASA’s New Horizons spacecraft flyby the dwarf planet which used to be our family in solar system. At 7.49 PM EDT the spacecraft flew within 7.750 miles or 12.500 near Pluto.&lt;/p&gt;
-
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/5HTXKMoaFL/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Gorgeous Pluto! The dwarf planet has sent a love note back to Earth via our New Horizons spacecraft, which has traveled more than 9 years and 3+ billion miles. This is the last and most detailed image of Pluto sent to Earth before the moment of closest approach, which was at 7:49 a.m. EDT Tuesday - about 7,750 miles above the surface -- roughly the same distance from New York to Mumbai, India - making it the first-ever space mission to explore a world so far from Earth. This stunning image of the dwarf planet was captured from New Horizons at about 4 p.m. EDT on July 13, about 16 hours before the moment of closest approach. The spacecraft was 476,000 miles (766,000 kilometers) from the surface. Images from closest approach are expected to be released on Wednesday, July 15. Image Credit: NASA #nasa #pluto #plutoflyby #newhorizons#solarsystem #nasabeyond #science&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A photo posted by NASA (@nasa) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-07-14T11:00:21+00:00&quot;&gt;Jul 14, 2015 at 4:00am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
-
-</description>
-				<pubDate>Wed, 15 Jul 2015 00:00:00 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/15/hi-pluto/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/15/hi-pluto/</guid>
-			</item>
-		
-			<item>
-				<title>Apple Music eating your iPhone's cellular data plan? Here's how to fix it!</title>
-				<description>&lt;blockquote&gt;
-  &lt;p&gt;If you’re worried about running out of data this month, here are a few tweaks and fixes you can try.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-				<pubDate>Wed, 15 Jul 2015 00:00:00 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/15/apple-music-eating-your-iphone's-cellular-data-plan%3F-here's-how-to-fix-it!/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/15/apple-music-eating-your-iphone's-cellular-data-plan%3F-here's-how-to-fix-it!/</guid>
-			</item>
-		
-			<item>
-				<title>Mapping 101 WunderLink with Mindmeister</title>
-				<description>&lt;p&gt;Gabe Weatherhead publish useful tips to automate hyperlink creations inside a mind map using MindMeister. Definitely should give it a try.&lt;/p&gt;
-</description>
-				<pubDate>Tue, 14 Jul 2015 16:15:38 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/14/mapping-101-wunderlink-with-mindmeister/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/14/mapping-101-wunderlink-with-mindmeister/</guid>
-			</item>
-		
-			<item>
-				<title>Two-Factor Authentication in iOS 9 and OS X El Capitan</title>
-				<description>&lt;p&gt;Apple has released a support documentation about two-factor authentication that will be built in iOS 9 and OS X El Capitan.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whenever you sign in with your Apple ID on a new device or browser, you will verify your identity by entering your password plus a six-digit verification code. The verification code will be displayed automatically on any Apple devices you are already signed in to that are running iOS 9 or OS X El Capitan. Just enter the code to complete sign in. If you don’t have an Apple device handy, you can receive the code on your phone via a text message or phone call instead.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-				<pubDate>Sat, 11 Jul 2015 18:47:00 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/11/two-factor-authentication-in-ios-9-and-os-x-el-capitan/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/11/two-factor-authentication-in-ios-9-and-os-x-el-capitan/</guid>
-			</item>
-		
-			<item>
-				<title>PopClip, Tiny App That Will Speed Up Your Workflow on Mac</title>
-				<description>&lt;p&gt;If you’re an iOS user, you’ve already know that when you select some text there will be a tiny pop-up with various menu that usually let you cut, copy, define or even speak that selected text. In iOS mail app the pop-up menu also lets you insert a photo or attachment. In &lt;a href=&quot;https://itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8&amp;amp;at=1010lDx&amp;amp;ct=hy&quot;&gt;Drafts&lt;/a&gt;, you can look up for a word you select in Terminology if installed using the pop-up menu. However when working on Mac, there’s no such functionality you can use by default. But don’t worry, there’s an app for that, it’s called &lt;a href=&quot;https://itunes.apple.com/id/app/popclip/id445189367?at=1010lDx&quot;&gt;PopClip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;PopClip mimic pop-up action menu on iOS. So after you install PopClip and select some text, there will be a pop-up menu that allow you to do various task with your selected text. You can save your selected text on Evernote, nvALT. If you’re have an appointment on your email, you can select and send it to Fantastical. Where does this magic live?&lt;/p&gt;
-
-&lt;p&gt;There are extensions that make PopClip powerful. PopClip has &lt;a href=&quot;http://pilotmoon.com/popclip/extensions&quot;&gt;hundreds extensions&lt;/a&gt; from manipulating text, translate it, count the words from selected text till make a new to do task on Todoist&lt;sup id=&quot;fnref:fn1&quot;&gt;&lt;a href=&quot;#fn:fn1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; or any task management apps you use. If you can’t find one, why you’re not &lt;a href=&quot;https://github.com/pilotmoon/PopClip-Extensions&quot;&gt;build for yourself?&lt;/a&gt;. Here’s the screenshot of PopClip extensions I use:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/popclip.png&quot; alt=&quot;PopClip extensions&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With &lt;a href=&quot;https://itunes.apple.com/id/app/popclip/id445189367?at=1010lDx&quot;&gt;$3.99&lt;/a&gt; asking price (for a limited time), PopClip is tiny app that will speed up your workflow on Mac.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:fn1&quot;&gt;
-      &lt;p&gt;I’m switching to Todoist and there’s a PopClip extensions &lt;a href=&quot;http://pilotmoon.com/popclip/extensions/page/Todoist&quot;&gt;for that.&lt;/a&gt; &lt;a href=&quot;#fnref:fn1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-				<pubDate>Sat, 11 Jul 2015 10:57:00 +0700</pubDate>
-				<link>http://hyperplex.co/article/2015/07/11/popclip-tiny-app-that-speed-up-your-workflow-on-mac/</link>
-				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/11/popclip-tiny-app-that-speed-up-your-workflow-on-mac/</guid>
-			</item>
-		
-			<item>
-				<title>Apple’s Mac Is Now The Only Major Pc Brand That’s Growing</title>
-				<description>&lt;blockquote&gt;
-  &lt;p&gt;Apple’s Mac continues to be one of the few bright spots in the PC industry.&lt;/p&gt;
-
-  &lt;ul&gt;
-    &lt;li&gt;Mac shipments reached 5.1 million during the second quarter, according to research firm IDC, representing 16% year-over-year growth.&lt;/li&gt;
-    &lt;li&gt;Apple was the only of IDC’s top six global PC makers to grow shipments last quarter.&lt;/li&gt;
-    &lt;li&gt;Overall industry shipments declined 12% to 66 million, according to IDC.&lt;/li&gt;
-    &lt;li&gt;Lenovo, the global leader, increased its share to 20%.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-</description>
-				<pubDate>Sat, 11 Jul 2015 09:42:00 +0700</pubDate>
-				<link>http://hyperplex.co/linked/2015/07/11/apples-mac-is-now-the-only-major-pc-brand-thats-growing/</link>
-				<guid isPermaLink="true">http://hyperplex.co/linked/2015/07/11/apples-mac-is-now-the-only-major-pc-brand-thats-growing/</guid>
-			</item>
-		
-			<item>
-				<title>Apple Releases Two Ads For iPhone</title>
-				<description>&lt;p&gt;“If it’s not an iPhone, it’s not an iPhone” is the new slogan for two Apple’s ads that has been released today. The two ads titled with Hardware &amp;amp; Software and Loved. The first ad, Apple explain how they can control and optimize their product because they created both hardware and software, the latter of course the impact to the user satisfaction.&lt;/p&gt;
-
-&lt;p&gt;User experience isn’t just about software. Hardware also play important role to create the whole experience. The question is, what is Apple? A hardware or software company?&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/wl3PlrPq8sw?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/3JnWCSyXLC8?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
-</description>
-				<pubDate>Fri, 10 Jul 2015 00:00:00 +0700</pubDate>
-				<link>http://hyperplex.co/article/2015/07/10/apple-released-two-ads-for-iphone/</link>
-				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/10/apple-released-two-ads-for-iphone/</guid>
+				<link>http://hyperplex.co/article/2015/07/late-thought-on-ios-9/</link>
+				<guid isPermaLink="true">http://hyperplex.co/article/2015/07/late-thought-on-ios-9/</guid>
 			</item>
 		
 	</channel>

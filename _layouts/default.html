@@ -22,8 +22,9 @@
 
 
   <header id="header">
-    <h1><a href="/"><i class="icon-header"></i> {{ site.name }}</a></h1>
-    <p>{{ site.description }}</p>
+    <h1><a href="/" title="Hyperplex: Home"> 
+      <img src="/assets/hyper_logo.png" alt="Hyperplex" height="56"></a></h1>
+    <p>By {{ site.data.attribute.author }}</p>
   </header>
 
 
@@ -68,7 +69,6 @@
       $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
     });
   </script>
-
 
 
 </body>

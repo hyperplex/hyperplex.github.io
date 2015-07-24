@@ -31,8 +31,9 @@
 
 
   <header id="header">
-    <h1><a href="/"><i class="icon-header"></i> Hyperplex</a></h1>
-    <p>It leads Nowhere</p>
+    <h1><a href="/" title="Hyperplex: Home"> 
+      <img src="/assets/hyper_logo.png" alt="Hyperplex" height="56"></a></h1>
+    <p>By Daniel Aditya Istyana</p>
   </header>
 
 
@@ -62,7 +63,236 @@
 	<article class="post">
 
 		
-			<h1><a href="/article/2015/07/16/late-thought-on-ios-9/">Late Thought on iOS 9</a></h1>
+			<h1>
+				<a href="http://leancrew.com/all-this/2015/07/plotting-apple/">Plotting Apple</a>
+				<a class="anchor" href="/linked/2015/07/plotting-apple/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>Dr. Drang has interesting takes on plotting Apple’s sales and revenue using Python/ Matplotlib code:</p>
+
+<blockquote>
+  <p>Every data point in the graph (except for the first three for each device) represents an average of the sales for four quarters: the current quarter and the previous three. The idea behind the averaging is to smooth out the strongly seasonal ups and downs in the raw quarterly data.</p>
+</blockquote>
+
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="https://www.sektioneins.de/en/blog/15-07-07-dyld_print_to_file_lpe.html">OS X 10.10 DYLD_PRINT_TO_FILE Local Privilege Escalation Vulnerability</a>
+				<a class="anchor" href="/linked/2015/07/os-x-1010-dyld-print-to-file-local-privilege-escalation-vulnerability/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p><a href="https://twitter.com/i0n1c">Stefan Esser</a>:</p>
+
+<blockquote>
+  <p>With the release of OS X 10.10 Apple added some new features to the dynamic linker dyld. One of these features is the new environment variable <strong>DYLD_PRINT_TO_FILE</strong> that enables error logging to an arbitrary file.[…]. When this variable was added the usual safeguards that are required when adding support for new environment variables to the dynamic linker have not been used. Therefore it is possible to use this new feature even with SUID root binaries. This is dangerous, because it allows to open or create arbitrary files owned by the root user anywhere in the file system. Furthermore the opened log file is never closed and therefore its file descriptor is leaked into processes spawned by SUID binaries. This means child processes of SUID root processes can write to arbitrary files owned by the root user anywhere in the filesystem. This allows for easy privilege escalation in OS X 10.10.x.</p>
+</blockquote>
+
+<p>Furthermore Esser explained that this isn’t patched on OS X 10.10.4 or the beta 10.10.5 but get fixed on OS X El Capitan. If you’re on OS X 10.10.4, Esser offer interim fix on <a href="https://github.com/sektioneins/SUIDGuard">Github</a> but since it isn’t official fix, install at your own risk.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1><a href="/article/2015/07/apple-q3-2015-financial-reports/">Apple Q3 2015 Financial Reports</a></h1>
+		
+
+		<div class="post-content"><p>From today Apple’s Q3 2015 financial reports:</p>
+
+<ul>
+  <li>iPhone unit sales grew 35%, revenue grew even more up to 59%. It’s sold 47.5 million.</li>
+  <li>They sold 10.9 million iPad, lesser than two previous quarter with Q1 21.4 million, Q2 12.6 million. Let’s see if iOS 9 will give iPad sales bumps next quarter.</li>
+  <li>Mac is sold 4.8 million, slightly higher than previous quarter with 4.6 million. Market research firm IDC says that PC shipments <a href="/linked/2015/07/pc-sales-continue-to-fall/">drop up to 12%</a> while its rival, Garner says it fell down to 9.5%. At the same time, Apple’s Mac sales continue grew by 9%. Meanwhile Peter Cohen on <a href="http://www.imore.com/another-smashing-quarter-mac-sales-while-pc-sales-continue-drop">iMore</a>.</li>
+  <li>Apple earned 10.7 billion profit.</li>
+</ul>
+
+<p>If you want to see some chart about Apple Q3 financial report then <a href="http://www.macstories.net/news/apple-q3-2015-results-49-6-billion-revenue-47-5-million-iphones-10-9-million-ipads-sold/">Macstories</a> and <a href="http://sixcolors.com/post/2015/07/appleq3results/">SixColors</a> have it for you.</p>
+
+<p>Here’s some interesting tweet about Apple Q3 financial report:</p>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">“Other” was up $1B from last quarter. If Apple Watch ASP is $500, that’s 2 million watches.</p>&mdash; Eric Slivka (@eslivka) <a href="https://twitter.com/eslivka/status/623592897137537024">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">CNBC: TC says revenue in Greater China up ~112% in the quarter</p>&mdash; MacJournals.com (@macjournals) <a href="https://twitter.com/macjournals/status/623591670940971008">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Whatever estimates u have for the AppleWatch 1 thing is for sure, Apple sold more Watches in 2Q15 than all other smartwatch vendors combined</p>&mdash; Francisco Jeronimo (@fjeronimo) <a href="https://twitter.com/fjeronimo/status/623609281821052928">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Apple’s Other product category is now a billion dollars bigger this quarter. In other words, Apple Watch is a multi-$bn business already</p>&mdash; Steve T-S (@stroughtonsmith) <a href="https://twitter.com/stroughtonsmith/status/623596899526905856">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Also of note: Apple Watch was only in stores for /2 weeks/ of last quarter</p>&mdash; Steve T-S (@stroughtonsmith) <a href="https://twitter.com/stroughtonsmith/status/623598890336563200">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is unbelievable.&#10;&#10;Apple&#39;s cash pile is now almost as big as all of Greece&#39;s GDP <a href="http://t.co/HcGxtD8sMK">http://t.co/HcGxtD8sMK</a>&#10;&#10;<a href="https://twitter.com/search?q=%24AAPL&amp;src=ctag">$AAPL</a> <a href="http://t.co/gART94Ryru">pic.twitter.com/gART94Ryru</a></p>&mdash; StockTwits (@StockTwits) <a href="https://twitter.com/StockTwits/status/623605380699017216">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">iPhone is at the second highest price point it has ever achieved.</p>&mdash; Horace Dediu (@asymco) <a href="https://twitter.com/asymco/status/623600168366116864">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Apple saw the highest switching rate from Android they’ve ever measured, says Tim Cook.</p>&mdash; Matthew Panzarino (@panzer) <a href="https://twitter.com/panzer/status/623599708867567616">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+<div class="embed twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I believe that Apple is the first company to break $1B in revenue for a wearable— and that&#39;s in less than a quarter.</p>&mdash; Carl Howe (@cdhowe) <a href="https://twitter.com/cdhowe/status/623626585510424576">July 21, 2015</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1><a href="/article/2015/07/theranos-and-why-it-matters/">Theranos and Why It Matters</a></h1>
+		
+
+		<div class="post-content"><p><a href="https://www.theranos.com/">Theranos</a> the startup company which offer low cost lab test is received approval from Food and Drug Administration to perform herpes simplex 1 test outside the lab, according to <a href="http://techcrunch.com/2015/07/18/theranos-gains-fda-approval-to-test-for-herpes-outside-the-lab/">TechCrunch</a>. The approval classified as CLIA Certificate waiver that will allow testing outside the lab with little error.</p>
+
+<p>The Founder, Elizabeth Holmes when <a href="http://www.bizjournals.com/sanfrancisco/blog/biotech/2014/09/theranos-elizabeth-holmes-disrupt-blood-test.html">talked at Techcrunch’s Disrupt Conferences</a> told that Theranos aim to perform lab test with only small amount of blood which can be obtained from a simple finger prick at low cost. Since I work as an QA Officer of one clinical laboratory, Theranos quickly gets my attention.</p>
+
+<p>First, I’m wondering what’s the technology behind Theranos device which make it’s possible to run the test with only few drops of blood. On a regular lab test, the patient’s blood need to be taken with venipuncture and processed to produce serum which we’ll run into analyzer. You’ve to go through pre-analytic, analytic and post-analytic process carefully to produce reliable and accurate result. When big analyzer perform test based on <a href="https://en.wikipedia.org/wiki/Spectrophotometry">spectrophotometry</a>, <a href="https://en.wikipedia.org/wiki/High-performance_liquid_chromatography">HPLC</a> even to <a href="https://en.wikipedia.org/wiki/Mass_spectrometry">mass-spectrophotometry</a> method to analyze sample, the question is what method does Theranos devices use to produce the result? The reliable result?</p>
+
+<p>Secondly, about <a href="https://en.wikipedia.org/wiki/Quality_control">quality control</a>. On regular lab test using analyzer, we need to perform quality control before we run patient’s sample. The purpose of running control is to ensure that all the test system which is used is running properly and produce acurate result. Again, the question is how the perform quality control on Theranos devices? Do they only need to be calibrated and you can use it o what?</p>
+
+<p>In addition besides method and quality control is cost. We all clinical laboratory try to give the best value for our customer. Ideally it would be low cost lab tes, quick turnaround time and acurate result. Maybe it’s no an apple to apple comparison since on the regular lab there would be a lot of additional material which is used in the process. But let me write this here, the new HSV1 which is newly got approved by FDA by Theranos costs $9.07, while today on our lab HSV1 costs approximately $22<sup id="fnref:fn1"><a href="#fn:fn1" class="footnote">1</a></sup> using automated analyzer. Theranos’ HbA1C test which is used to monitor average glucose level in the blood for the last 2-3 months, <a href="https://www.theranos.com/test-menu/test/82947">cost $6.67</a>, on us it’s $11.54.</p>
+
+<p>Of course the higher price not just from the reagen but also the result of the additional material we use to perform the test from pre to post analytic such as syringe and vacuum tube to collect the patient’s specimen, tube to store the serum and more.</p>
+
+<p>Sure, Theranos technology could benefit us to the future. Performing lab testing outside laborartory with less errors means we could bring the device to remote areas. It would be more practical tho. The patient also could take the benefit from its system since it would be less pain when obtaining specimen, less blood to be taken.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:fn1">
+      <p>Based on exchange rate this post is written since we use different currency <a href="#fnref:fn1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://blogs.wsj.com/digits/2015/07/09/pc-sales-continue-to-fall/">PC Sales Continue to Fall</a>
+				<a class="anchor" href="/linked/2015/07/pc-sales-continue-to-fall/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>Robert McMillan writing for WSJ:</p>
+
+<blockquote>
+  <p>Worldwide PC shipments saw their sharpest decline in nearly two years in the second quarter of 2015, dealing continued damage to retailers and makers of computers, chips and PC software.</p>
+
+  <p>Shipments fell 9.5 percent, year on year, to 68.4 million units, according to the research firm Gartner. Rival researcher IDC, which doesn’t include tablets in its tally, tracked an 11.8 percent drop, year on year, to 66.1 million shipments during the quarter. Both firms released PC sales reports on Wednesday</p>
+</blockquote>
+
+<p>So is it confirmed that <a href="/linked/2015/07/apples-mac-is-now-the-only-major-pc-brand-thats-growing/">Mac is the only major PC brand thats growing</a>? I think so.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://www.birchtree.me/blog/who-buys-ipods">Who's Actually Buying iPods These Days?</a>
+				<a class="anchor" href="/linked/2015/07/whos-actually-buying-ipods-these-days/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>Sometimes we need to see some things from different perspective and Matt Birchler shared to us who actually buy iPod these days as he worked managing electronic departement at target.</p>
+
+<p>Matt Birchler:</p>
+
+<blockquote>
+  <p>So who are iPods for? They’re for people who don’t have a smartphone, and that’s about it. This makes complete sense, though. The smartphone came in and ate so many products’ lunch. Apple’s iPhone can do everything these iPods can do and do so much more as well. A smartphone is almost essential if you’re a young to middle age adult these days, so you probably already have one in your pocket. For that majority of the population, iPods are redundant, and they don’t even think about them most of the time.</p>
+
+  <p>iPods remain somewhat relevant amongst the very young and very old. But once again, the rise of affordable tablets has made even those markets shrink by the day. It’s hard to think the iPod line is going to do anything but continue shrink even with this refresh.</p>
+</blockquote>
+
+<p>I remember back when I got my first iPod Touch 4G on 2011. It’s beautiful device even the back scratch so easily. I purchased it for mostly played games and dumped my music collections there. It’s great device to killing time but with now iPhone take the world and large screen iPad become more affordable, it just the matter of time till Apple kill the iPod line up. Or maybe I’m wrong.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="https://www.nasa.gov/image-feature/goddard/views-of-pluto-through-the-years">Views of Pluto Through the Years</a>
+				<a class="anchor" href="/linked/2015/07/views-of-pluto-through-the-years/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>The faces of Pluto since first captured in 1930 till now when the New Horizons spacecraft flyby and took closer images of the dwarf planet.</p>
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="https://smilesoftware.com/blog/entry/fun-with-textexpander-and-scripting">Fun with TextExpander and Scripting</a>
+				<a class="anchor" href="/linked/2015/07/fun-with-textexpander-and-scripting/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>TextExpander 5 now supports JavaScript snippets and it can run on iPhone, iPad, and Mac. This is one of the snippets sample using JavaScript which will round the current date to the closest 5 minutes.</p>
+
+<p>This app is really a time saver. If you haven’t use it, now it’s time to <a href="https://itunes.apple.com/us/app/id917416298&amp;at=1010lDx&amp;ct=aditya">get ‘em</a></p>
+
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1>
+				<a href="http://searchengineland.com/google-is-hiring-an-seo-to-improve-their-ranking-in-google-225320">Google Is Hiring An SEO Manager To Improve Its Rankings In Google</a>
+				<a class="anchor" href="/linked/2015/07/google-is-hiring-an-seo-manager-to-improve-its-rankings-in-google/"><i class="icon-right-big"></i></a>
+			</h1>
+		
+
+		<div class="post-content"><p>If this is for real, they must be doomed.</p>
+
+</div>
+
+	</article>
+
+
+
+	<article class="post">
+
+		
+			<h1><a href="/article/2015/07/late-thought-on-ios-9/">Late Thought on iOS 9</a></h1>
 		
 
 		<div class="post-content"><p>Apple has announced <a href="https://www.apple.com/ios/ios9-preview/">iOS 9</a>. Focus on the optimizations and stability improvements Apple also add some features who boost functionality on iOS even some of the features they add such as trackpad mode on keyboard and picture in picture could be achieved with being jailbroken. For the last two years, Apple adds a lot of features on iOS which lesser the reason to jailbreak. The number of my installed tweak after being jailbroken is also lesser each new iOS version is released.</p>
@@ -161,195 +391,6 @@ With the new multitasking features on iOS 9, Apple push iPad to become <a href="
 
 
 
-	<article class="post">
-
-		
-			<h1><a href="/bookmarks/2015/07/16/2015-07-16-web-excursions-july-16-2015/">Web Links for July 16, 2015</a></h1>
-		
-
-		<div class="post-content"><dl>
-  <dt><a href="https://blog.todoist.com/2015/07/02/get-ahead-simply-asking-right-way/">How to Get Ahead By Simply Asking (The Right Way)</a></dt>
-  <dd>From a discount on your daily latte to a yearly raise at work, learn the best tips on how to get ahead by simply asking (hint: it’s easier than you think!)</dd>
-  <dt><a href="http://pickletheory.com/693/paying-for-productivity-apps/">Why I Buy “All Those Apps” - The Pickle Theory</a></dt>
-  <dd>If you’re asked by your friends about why you buy apps, send them this links.</dd>
-  <dt><a href="http://regexcheatsheet.com/">Regular Expressions Cheat Sheet | Python, PHP, Perl</a></dt>
-  <dd>As seen on title.</dd>
-  <dt><a href="http://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/">Sublime Text 3 Guide: Tips, Tricks, and Shortcuts</a></dt>
-  <dd>Sublime Text is my choice of text editor, I blog from writing to uploading to the host site from Sublime Text.</dd>
-  <dt><a href="http://www.rexegg.com/">www.rexegg.com</a></dt>
-  <dd>I start to learn regular expressions in my spare time and this site has great resources.</dd>
-</dl>
-
-</div>
-
-	</article>
-
-
-
-	<article class="post">
-
-		
-			<h1>
-				<a href="http://www.theverge.com/2015/7/15/8968345/satoru-iwata-heart-of-a-gamer-gdc-2005-video">Watch Satoru Iwata's inspiring GDC 2005 talk in full</a>
-				<a class="anchor" href="/linked/2015/07/15/watch-satoru-iwata's-inspiring-gdc-2005-talk-in-full/"><i class="icon-right-big"></i></a>
-			</h1>
-		
-
-		<div class="post-content">
-</div>
-
-	</article>
-
-
-
-	<article class="post">
-
-		
-			<h1>
-				<a href="https://solarsystem.nasa.gov/news/display.cfm?News_ID=49503&linkId=15514645">Hi, Pluto!</a>
-				<a class="anchor" href="/linked/2015/07/15/hi-pluto/"><i class="icon-right-big"></i></a>
-			</h1>
-		
-
-		<div class="post-content"><p>Finally, we could see Pluto’s best face on July 14th as NASA’s New Horizons spacecraft flyby the dwarf planet which used to be our family in solar system. At 7.49 PM EDT the spacecraft flew within 7.750 miles or 12.500 near Pluto.</p>
-
-<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/5HTXKMoaFL/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">Gorgeous Pluto! The dwarf planet has sent a love note back to Earth via our New Horizons spacecraft, which has traveled more than 9 years and 3+ billion miles. This is the last and most detailed image of Pluto sent to Earth before the moment of closest approach, which was at 7:49 a.m. EDT Tuesday - about 7,750 miles above the surface -- roughly the same distance from New York to Mumbai, India - making it the first-ever space mission to explore a world so far from Earth. This stunning image of the dwarf planet was captured from New Horizons at about 4 p.m. EDT on July 13, about 16 hours before the moment of closest approach. The spacecraft was 476,000 miles (766,000 kilometers) from the surface. Images from closest approach are expected to be released on Wednesday, July 15. Image Credit: NASA #nasa #pluto #plutoflyby #newhorizons#solarsystem #nasabeyond #science</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by NASA (@nasa) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-07-14T11:00:21+00:00">Jul 14, 2015 at 4:00am PDT</time></p></div></blockquote>
-<script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
-
-</div>
-
-	</article>
-
-
-
-	<article class="post">
-
-		
-			<h1>
-				<a href="http://www.imore.com/apple-music-eating-your-iphones-cellular-data-plan-heres-how-fix-it">Apple Music eating your iPhone's cellular data plan? Here's how to fix it!</a>
-				<a class="anchor" href="/linked/2015/07/15/apple-music-eating-your-iphone's-cellular-data-plan%3F-here's-how-to-fix-it!/"><i class="icon-right-big"></i></a>
-			</h1>
-		
-
-		<div class="post-content"><blockquote>
-  <p>If you’re worried about running out of data this month, here are a few tweaks and fixes you can try.</p>
-</blockquote>
-</div>
-
-	</article>
-
-
-
-	<article class="post">
-
-		
-			<h1>
-				<a href="http://www.macdrifter.com/2015/07/mapping-101-wunderlink-with-mindmeister.html">Mapping 101 WunderLink with Mindmeister</a>
-				<a class="anchor" href="/linked/2015/07/14/mapping-101-wunderlink-with-mindmeister/"><i class="icon-right-big"></i></a>
-			</h1>
-		
-
-		<div class="post-content"><p>Gabe Weatherhead publish useful tips to automate hyperlink creations inside a mind map using MindMeister. Definitely should give it a try.</p>
-</div>
-
-	</article>
-
-
-
-	<article class="post">
-
-		
-			<h1>
-				<a href="https://developer.apple.com/support/two-factor-authentication/">Two-Factor Authentication in iOS 9 and OS X El Capitan</a>
-				<a class="anchor" href="/linked/2015/07/11/two-factor-authentication-in-ios-9-and-os-x-el-capitan/"><i class="icon-right-big"></i></a>
-			</h1>
-		
-
-		<div class="post-content"><p>Apple has released a support documentation about two-factor authentication that will be built in iOS 9 and OS X El Capitan.</p>
-
-<blockquote>
-  <p>Whenever you sign in with your Apple ID on a new device or browser, you will verify your identity by entering your password plus a six-digit verification code. The verification code will be displayed automatically on any Apple devices you are already signed in to that are running iOS 9 or OS X El Capitan. Just enter the code to complete sign in. If you don’t have an Apple device handy, you can receive the code on your phone via a text message or phone call instead.</p>
-</blockquote>
-
-</div>
-
-	</article>
-
-
-
-	<article class="post">
-
-		
-			<h1><a href="/article/2015/07/11/popclip-tiny-app-that-speed-up-your-workflow-on-mac/">PopClip, Tiny App That Will Speed Up Your Workflow on Mac</a></h1>
-		
-
-		<div class="post-content"><p>If you’re an iOS user, you’ve already know that when you select some text there will be a tiny pop-up with various menu that usually let you cut, copy, define or even speak that selected text. In iOS mail app the pop-up menu also lets you insert a photo or attachment. In <a href="https://itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8&amp;at=1010lDx&amp;ct=hy">Drafts</a>, you can look up for a word you select in Terminology if installed using the pop-up menu. However when working on Mac, there’s no such functionality you can use by default. But don’t worry, there’s an app for that, it’s called <a href="https://itunes.apple.com/id/app/popclip/id445189367?at=1010lDx">PopClip</a></p>
-
-<p>PopClip mimic pop-up action menu on iOS. So after you install PopClip and select some text, there will be a pop-up menu that allow you to do various task with your selected text. You can save your selected text on Evernote, nvALT. If you’re have an appointment on your email, you can select and send it to Fantastical. Where does this magic live?</p>
-
-<p>There are extensions that make PopClip powerful. PopClip has <a href="http://pilotmoon.com/popclip/extensions">hundreds extensions</a> from manipulating text, translate it, count the words from selected text till make a new to do task on Todoist<sup id="fnref:fn1"><a href="#fn:fn1" class="footnote">1</a></sup> or any task management apps you use. If you can’t find one, why you’re not <a href="https://github.com/pilotmoon/PopClip-Extensions">build for yourself?</a>. Here’s the screenshot of PopClip extensions I use:</p>
-
-<p><img src="/images/popclip.png" alt="PopClip extensions" /></p>
-
-<p>With <a href="https://itunes.apple.com/id/app/popclip/id445189367?at=1010lDx">$3.99</a> asking price (for a limited time), PopClip is tiny app that will speed up your workflow on Mac.</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:fn1">
-      <p>I’m switching to Todoist and there’s a PopClip extensions <a href="http://pilotmoon.com/popclip/extensions/page/Todoist">for that.</a> <a href="#fnref:fn1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-</div>
-
-	</article>
-
-
-
-	<article class="post">
-
-		
-			<h1>
-				<a href="http://qz.com/450553/apples-mac-is-now-the-only-major-pc-brand-thats-growing/">Apple’s Mac Is Now The Only Major Pc Brand That’s Growing</a>
-				<a class="anchor" href="/linked/2015/07/11/apples-mac-is-now-the-only-major-pc-brand-thats-growing/"><i class="icon-right-big"></i></a>
-			</h1>
-		
-
-		<div class="post-content"><blockquote>
-  <p>Apple’s Mac continues to be one of the few bright spots in the PC industry.</p>
-
-  <ul>
-    <li>Mac shipments reached 5.1 million during the second quarter, according to research firm IDC, representing 16% year-over-year growth.</li>
-    <li>Apple was the only of IDC’s top six global PC makers to grow shipments last quarter.</li>
-    <li>Overall industry shipments declined 12% to 66 million, according to IDC.</li>
-    <li>Lenovo, the global leader, increased its share to 20%.</li>
-  </ul>
-</blockquote>
-</div>
-
-	</article>
-
-
-
-	<article class="post">
-
-		
-			<h1><a href="/article/2015/07/10/apple-released-two-ads-for-iphone/">Apple Releases Two Ads For iPhone</a></h1>
-		
-
-		<div class="post-content"><p>“If it’s not an iPhone, it’s not an iPhone” is the new slogan for two Apple’s ads that has been released today. The two ads titled with Hardware &amp; Software and Loved. The first ad, Apple explain how they can control and optimize their product because they created both hardware and software, the latter of course the impact to the user satisfaction.</p>
-
-<p>User experience isn’t just about software. Hardware also play important role to create the whole experience. The question is, what is Apple? A hardware or software company?</p>
-
-<iframe width="560" height="420" src="http://www.youtube.com/embed/wl3PlrPq8sw?color=white&amp;theme=light"></iframe>
-
-<iframe width="560" height="420" src="http://www.youtube.com/embed/3JnWCSyXLC8?color=white&amp;theme=light"></iframe>
-</div>
-
-	</article>
-
-
-
 
 
 
@@ -359,7 +400,7 @@ With the new multitasking features on iOS 9, Apple push iPad to become <a href="
 			<span class="nope left">&larr; Newer</span>
 		
 
-		<span class="pages">Page 1 of 4</span>
+		<span class="pages">Page 1 of 5</span>
 
 		
 			<a class="next right" href="/page2/">Older &rarr;</a>
@@ -386,7 +427,6 @@ With the new multitasking features on iOS 9, Apple push iPad to become <a href="
       $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
     });
   </script>
-
 
 
 </body>
